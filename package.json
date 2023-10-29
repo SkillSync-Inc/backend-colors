@@ -1,0 +1,27 @@
+{
+  "name": "backend-colors",
+  "description": "Just a backend server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.2"  
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev index.ts",
+    "build": "npx tsc",
+    "js:start": "node build/index.js",
+    "js:dev": "nodemon build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkillSync-Inc/skillsync-pr-backend.git"
+  },
+  "author": "SkillSync Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SkillSync-Inc/skillsync-pr-backend/issues"
+  },
+  "homepage": "https://github.com/SkillSync-Inc/skillsync-pr-backend#readme"
+}
