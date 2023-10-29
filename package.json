@@ -3,6 +3,7 @@
   "description": "Just a backend server",
   "version": "1.0.0",
   "main": "index.js",
+  "types": "index.d.ts",
   "dependencies": {
     "chalk": "^4.1.2"  
   },
